@@ -1,12 +1,14 @@
 <template>
+  <div>
+    <Return></Return>
 
-  <Flickity ref="flickity" :options="flickityOptions">
-    <img 
-      v-for="(item, index) in 10" :key="index" class="carousel-cell card-placeholder"
-      :data-flickity-lazyload="`https://picsum.photos/${w_width}/${w_height}?random=${index}`"
-    > <!-- The index in img src is meant to get different images from picsum at one call -->
-  </Flickity>
-
+    <Flickity ref="flickity" :options="flickityOptions">
+      <img 
+        v-for="(item, index) in 10" :key="index" class="carousel-cell card-placeholder"
+        :data-flickity-lazyload="`https://picsum.photos/${w_width}/${w_height}?random=${index}`"
+      > <!-- The index in img src is meant to get different images from picsum at one call -->
+    </Flickity>    
+  </div>
 </template>
 
 <script>
