@@ -5,7 +5,55 @@
       "id": 1,
       "username": "admin",
       "email": "admin@example.com",
-      "company_name": "Greatest Company"
+      "company_name": "Greatest Company",
+      "posts": [],
+      "todos": [],
+      "Albums": []
+    },
+    {
+      "id": 2,
+      "username": "Mango",
+      "email": "america@gmal.com",
+      "company_name": "Cloud9",
+      "posts": [],
+      "todos": [],
+      "Albums": []
+    },
+    {
+      "id": 3,
+      "username": "HungryBox",
+      "email": "clutch-boite@gmal.com",
+      "company_name": "Team Liquid",
+      "posts": [],
+      "todos": [],
+      "Albums": []
+    },
+    {
+      "id": 4,
+      "username": "Armada",
+      "email": "swedish-sniper@gmal.com",
+      "company_name": "Alliance",
+      "posts": [],
+      "todos": [],
+      "Albums": []
+    },
+    {
+      "id": 5,
+      "username": "M2K",
+      "email": "the-robot@gmal.com",
+      "company_name": "Most Valuable Gaming",
+      "posts": [],
+      "todos": [],
+      "Albums": []
+    },
+    {
+      "id": 6,
+      "username": "Leffen",
+      "email": "toxic-af@gmal.com",
+      "company_name": "Team Solomid (TSM)",
+      "posts": [],
+      "todos": [],
+      "Albums": []
     }
   ]
 }
