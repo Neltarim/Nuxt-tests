@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="to" class="rounded-btn">
+  <NuxtLink :to="to" :class="icon">
     <font-awesome-icon icon="arrow-left" size="2x" />
   </NuxtLink>
 </template>
@@ -9,6 +9,7 @@ export default {
   name: 'Return',
   props: {
     to: {type: String, default: '/'},
+    icon: {type: String, default: 'rounded-btn'}
   },
 }
 </script>
