@@ -3,57 +3,183 @@
   "users": [
     {
       "id": 1,
-      "username": "admin",
-      "email": "admin@example.com",
-      "company_name": "Greatest Company",
-      "posts": [],
-      "todos": [],
-      "Albums": []
+      "username": "PPMD",
+      "email": "the-monk@gmal.com",
+      "company_name": "Evil Geniuses",
+      "posts": [
+        {
+          "title": "Lorem ipsum 1",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "todos": [
+        {
+          "desc": "todos desc 1",
+          "done": false
+        },
+        {
+          "desc": "todos desc 2",
+          "done": true
+        }
+      ]
     },
     {
       "id": 2,
       "username": "Mango",
       "email": "america@gmal.com",
       "company_name": "Cloud9",
-      "posts": [],
-      "todos": [],
-      "Albums": []
+      "posts": [
+        {
+          "title": "Lorem ipsum 1",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "todos": [
+        {
+          "desc": "todos desc 1",
+          "done": false
+        },
+        {
+          "desc": "todos desc 2",
+          "done": true
+        }
+      ]
     },
     {
       "id": 3,
       "username": "HungryBox",
       "email": "clutch-boite@gmal.com",
       "company_name": "Team Liquid",
-      "posts": [],
-      "todos": [],
-      "Albums": []
+      "posts": [
+        {
+          "title": "Lorem ipsum 1",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "todos": [
+        {
+          "desc": "todos desc 1",
+          "done": false
+        },
+        {
+          "desc": "todos desc 2",
+          "done": true
+        }
+      ]
     },
     {
       "id": 4,
       "username": "Armada",
       "email": "swedish-sniper@gmal.com",
       "company_name": "Alliance",
-      "posts": [],
-      "todos": [],
-      "Albums": []
+      "posts": [
+        {
+          "title": "Lorem ipsum 1",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "todos": [
+        {
+          "desc": "todos desc 1",
+          "done": false
+        },
+        {
+          "desc": "todos desc 2",
+          "done": true
+        }
+      ]
     },
     {
       "id": 5,
       "username": "M2K",
       "email": "the-robot@gmal.com",
       "company_name": "Most Valuable Gaming",
-      "posts": [],
-      "todos": [],
-      "Albums": []
+      "posts": [
+        {
+          "title": "Lorem ipsum 1",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "todos": [
+        {
+          "desc": "todos desc 1",
+          "done": false
+        },
+        {
+          "desc": "todos desc 2",
+          "done": true
+        }
+      ]
     },
     {
       "id": 6,
       "username": "Leffen",
       "email": "toxic-af@gmal.com",
       "company_name": "Team Solomid (TSM)",
-      "posts": [],
-      "todos": [],
-      "Albums": []
+      "posts": [
+        {
+          "title": "Lorem ipsum 1",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum 2",
+          "text": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "todos": [
+        {
+          "desc": "todos desc 1",
+          "done": false
+        },
+        {
+          "desc": "todos desc 2",
+          "done": true
+        }
+      ]
     }
   ]
 }
