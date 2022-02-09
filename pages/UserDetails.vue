@@ -99,7 +99,12 @@ export default {
 }
 
 .multi { display: flex; }
-.multi > :first-child { margin-right: 1rem; }
+.multi > :first-child { margin-right: 1rem; } 
+
+@media only screen and (max-width:415px) {
+  .multi { display: block; }
+  .card-header { padding-top: .2rem; }
+}
 
 .semi {
   height: 100%;

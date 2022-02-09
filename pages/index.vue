@@ -7,11 +7,11 @@
 
     <div class="overview">
       <NuxtLink to="/Carousel" class="project-link">
-        <div></div>      
+        <img :src="require('~/static/carousel_presa.png')" class="presa" alt="carousel">    
       </NuxtLink>
 
       <NuxtLink to="/Dashboard" class="project-link">
-        <div></div>
+        <img :src="require('~/static/dashboard_presa.png')" class="presa" alt="dashboard"> 
       </NuxtLink>
     </div>   
   </div>
@@ -52,14 +52,25 @@ export default {
     margin: 20px;
     background-color: $green-dark;
     width: 500px;
-    height: 500px;
+    height: 400px;
     transition: 0.3s;
   }
 
+  .project-link > :first-child { margin-bottom: 2rem; }
+
   .project-link:hover {
-    padding: 20px;
+    width: 800px;
+    height: 600px;
     background-color: $green;
   }
+
+  .presa {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(80%);
+  }
+
+  .presa:hover {filter: grayscale(30%);}
 
   .text-center {
     text-align: center;

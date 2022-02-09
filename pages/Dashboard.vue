@@ -68,6 +68,8 @@ export default {
   }
 
   .responsive-table {
+    padding: 0rem;
+    
     .line {
       border-radius: 3px;
       padding: 25px 30px;
@@ -77,6 +79,12 @@ export default {
       text-decoration: none;
       color: black;
     }
+    @media only screen and (max-width:415px) {
+      .line {
+        padding: 20px 10px;        
+      }
+    }
+
     .table-header {
       background-color: #568588;
       color: white;
